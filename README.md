@@ -1,7 +1,7 @@
 # Automações com powershell
 
 ---
-Este repositório faz parte da sequência de videos lançados pelo canal [Estação da TI](https://youtu.be/ZDmX6lqPThg)
+Este repositório faz parte da sequência de videos lançados pelo canal [Estação da TI](https://www.youtube.com/channel/UCyG1GeH1SG6ZqfvNVpVfd5Q)
 
 ---
 
@@ -70,6 +70,6 @@ Import-Excel -Path $path | ForEach-Object {
 ```
 
 ---
-Este repositório faz parte da sequência de videos lançados pelo canal [Estação da TI](https://youtu.be/ZDmX6lqPThg)
+Este repositório faz parte da sequência de videos lançados pelo canal [Estação da TI](https://www.youtube.com/channel/UCyG1GeH1SG6ZqfvNVpVfd5Q)
 
 ---
