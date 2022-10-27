@@ -57,11 +57,11 @@ Esta segunda parte do script é responsável por aplicar as tags nos recursos. E
 $path = "C:\temp\output.xlsx"
 
 Import-Excel -Path $path | ForEach-Object {
+    $id = $_.id
     $Tag1 = 'Nome do ambiente=' + $_."Nome do Ambiente"
     $Tag2 = 'Tipo do ambiente=' + $_."Tipo do Ambiente"
     $tag3 = 'Descricao=' + $_.Descricao
-    $id = $_.id
-
+    
     az tag update --resource-id $id --operation merge --tags $Tag1 $Tag2 $tag3
 }
 ```
