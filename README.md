@@ -18,9 +18,6 @@ Instalado modulo para exportar para o Excel
 
 ```Install-Module ImportExcel -AllowClobber -Force```
 
-Instalando modulos az
-
-```Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force```
 
 **Testar comando az graph**
 
